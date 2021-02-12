@@ -1,11 +1,13 @@
 
 service: selenium-layer
-
+# app and org for use with dashboard.serverless.com
+app: shapla-app
+org: rezahok
 
 provider:
   name: aws
   runtime: python3.6
-  region: ap-southeast-2
+  region: us-east-1
   timeout: 900
 
 layers:
@@ -14,7 +16,7 @@ layers:
     compatibleRuntimes:
       - "python3.6"
   chromedriver:
-    path: chromedriver
+    path: chrome_driver
     description: chrome driver layer
     compatibleRuntimes:
       - "python3.6"

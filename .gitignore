@@ -1,0 +1,9 @@
+# Distribution / packaging
+venv/
+
+.DS_Store
+.serverless/
+node_modules/
+package-lock.json
+.vscode/
+env

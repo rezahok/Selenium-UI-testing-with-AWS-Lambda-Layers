@@ -1,7 +1,7 @@
 # Distribution / packaging
 venv/
 
-.DS_Store
+#serverless-requirements-plugin
 .serverless/
 node_modules/
 package-lock.json
